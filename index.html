@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Material icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/4647acf829.js" crossorigin="anonymous"></script>
+  
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Google font -->
+  <!-- Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- fullpage CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w==" crossorigin="anonymous" />
+
+  <!-- Custom CSS -->
+  <link type="text/css" rel="stylesheet" href="/css/main.css">
+  <link type="text/css" rel="stylesheet" href="/css/main.scss">
+
+  <!-- Let browser know website is optimized for mobile -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>KIKZ Shoe Store</title>
+</head>
+<body>
+  <!-- Nav Bar -->
+  <header class="main-header">
+    <nav class="transparent">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">
+            <img src="icons/Logo/Kikz Logo_Horizontal-black1.svg">
+          </a>
+          <!-- Slidenav content here  -->
+          <ul id="slide-out" class="sidenav">
+            <li><div class="user-view">
+              <a href="#!" class="brand-logo-white center">
+                <img src="/icons/Logo/Kikz Logo_Horizontal-white.svg">
+              </a>
+              <a href="#user"><img class="circle" src="/img/photo-1494790108377-be9c29b29330.jpg"></a>
+              <a href="#name"><i class="white-text name">Marie Schimdt</i></a>
+              <a href="#email"><i class="white-text email">marieschimdt@gmail.com</i></a>
+            </div>  
+          </li>
+            <li><a href="/index.html">Home</a>
+            </li>
+            <li><a href="#!">Account</a>
+            </li>
+            <li> <a href="#cart-modal" class="modal-trigger">Cart</a>
+            </li>
+              <li>
+                <a href="#login-modal" class="modal-trigger">Login</a>
+              </li>
+            <li class="text-align: center">Dont have account? 
+              <a href="#!" class="waves-effect-light red darken-2 btn-medium">Join</a>
+            </li>   
+          </ul>
+          <a href="#" data-target="slide-out" class="sidenav-trigger">
+            <i class="fas fa-ellipsis-h black-text"></i>
+          </a>
+            <!-- Nav Menu -->
+            <div class="nav-menu1">
+						<ul id="nav-slide" class="hide-on-med-and-down">
+                <li><a href="index.html">Collection</a></li>
+                <li><a href="index.html">Men</a></li>
+                <li><a href="index.html">Women</a></li>
+                <li><a href="index.html">Kids</a></li>
+            </ul>
+            <!-- Nav Icons -->
+            <div class="nav-menu2">
+            <ul id="nav-slide" class="right hide-on-med-and-down">   
+                <li><a href="/search.html"><i class="material-icons">search</i></a></li>
+                <li><a href="#cart-modal" class="modal-trigger"><i class="material-icons">local_mall</i></a></li>
+                <li><a class='dropdown-trigger btn transparent' href='#' data-target='dropdown1'>
+                  <i class="material-icons">person_outline</i></a></li>
+                    <!-- Dropdown Structure -->
+                        <ul id='dropdown1' class='dropdown-content'>
+                          <li><a href="/index.html">My Account</a></li>
+                          <li><a href="#cart-modal" class="modal-trigger">Purchase</a></li>
+                          <li class="divider" tabindex="-1"></li>
+                          <li><a href="#login-modal"class="modal-trigger">Login</a></li>
+                        </ul>
+            </ul>
+          </div>  
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--fullpage Slider-->
+  <!--Main Slider 1-->
+  <div id="fullpage" class="fullpage-wrapper">
+    <section class="section section-main">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+         <h1>     
+            <div class="outline">The new</div>
+         </h1>
+            <div class="flow-text" id="black1">Collection from Nike</div>
+            <div class="col m6" id="red-price">$7199.00</div>
+            <div class="col m6" id="grey-price">
+              <strike>$8995.00</strike>
+            </div>
+        <!-- Button Trigger  -->
+        <div class="col m8">
+          <div class="left" id="shopnow">
+          <a href="#!" class="btn-large waves-effect waves-light black-text grey lighten-3">SHOP NOW</a>
+          <a class="btn-floating btn-large waves-effect waves-light black right"><i class="material-icons">add</i></a>
+          </div>
+           
+        </div>
+      </div>  
+          <div class="col s12 m6">
+            <div class="img1">
+              <img src="/img/nike-air-max-98-r7.png" alt="" class="responsive-img">
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--FOOTER-->          
+<footer class="page-footer transparent">
+  <nav class="footer-copyright">
+    <div class="container">
+      <div class="nav-footer">
+        <ul id="nav-mobile2" class="left-on-med-and-down">   
+            <li><a href="https://www.facebook.com/marichelle.martinez/"><i class="material-icons black-text">facebook</i></a></li>
+            <li><a href="#!"><i class="fab fa-instagram black-text"></i></a></li>
+            <li><a href="#!"><i class="fab fa-twitter black-text"></i></a></li>
+        </ul>
+      </div>
+    <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+    </div>
+  </nav>
+</footer>  
+    </section>
+
+    <!-- Main Slider 2  -->
+    <section class="section section-main">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6">
+           <h1 class="red-text darken-2">     
+            Nike Air Max 98 SE - Men Shoes
+           </h1>
+              <div class="col m6" id="red-price">$7199.00</div>
+              <div class="col m6" id="grey-price">
+                <strike>$8995.00</strike>
+              </div>
+                
+              <div class="col s8">
+                <div class="selection">
+              <a href="#!" class="waves-effect waves-light black-text grey lighten-2 btn-large">US 7</a>
+              <a href="#!" class="waves-effect waves-light black-text grey lighten-2 btn-large">US 8</a>
+              <a href="#!" class="waves-effect waves-light black-text grey lighten-2 btn-large">US 9</a>
+              <a href="#!" class="waves-effect waves-light black-text grey lighten-2 btn-large">US 10</a>
+              <a href="#!" class="waves-effect waves-light black-text grey lighten-2 btn-large">US 11</a>
+              <a href="#!" class="waves-effect waves-light black-text grey lighten-2 btn-large">US 12</a>
+                           
+                </div>     
+              </div>
+              <div class="col s4">
+                <div class="add">   
+                  <a href="#cart-modal" class="modal-trigger">
+                    <button class="waves-effect waves-light btn-large white-text red darken-2">ADD<i class="material-icons">add</i>
+                    </button>
+                    </a>   
+                  </div>
+                </div>
+
+                <div class="col s8">
+                  <p class="sentence">     
+                    For orders above $2000 standard shipping
+                    is always free!
+                  </p>
+                </div>
+                
+            </div>     
+            <div class="col s12 m6">
+              <div class="img1">
+                <img src="/img/air-max-98-se-shoe.png" alt="" class="responsive-img">
+              </div>
+              <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="/img/air-max-98-se-shoe-1.png"></a>
+                <a class="carousel-item" href="#two!"><img src="/img/air-max-98-se-shoe-2.png"></a>
+                <a class="carousel-item" href="#three!"><img src="/img/air-max-98-se-shoe-3.png"></a>
+              </div>
+          </div>
+          <div class="row">
+          <div class="col s12 m6">
+            <div class="flow-text">
+            <div class="footer3">
+                <p>Product Details  <i class="fas fa-long-arrow-alt-down"></i></p>
+              </div>
+            </div>  
+            </div>
+          </div>   
+        </div>
+         
+      </div>
+        
+      
+      </section>  
+
+  <!-- Main Slider 3 -->
+  <section class="section section-main">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h2 class="h2">
+            Men's shoe
+          </h2>
+          <h1 class="black-text darken-2">     
+            Nike Air Max 98 SE -
+           </h1>
+            <div class="flow-text">
+              <p class="sentence2">     
+                The Nike Air Max 98 Shoe brings back retro Air Max style with modern comfort. The leather and mesh upper provides durable breathability while a full-length, visible Max Air unit offers responsive cushioning.
+            </p></div>
+        
+          <!-- Button Trigger  -->
+          <div class="col s12">
+            <div class="center" id="outline2">
+            <a href="#!" class="btn-large waves-effect waves-light white-text red darken-2">SHOP NOW</a>
+              <a href="#!" class="btn-large waves-effect waves-light black-text brown lighten-5">Favorite <i class="far fa-heart"></i></a>
+              </div>
+            </div>           
+        </div>  
+          <div class="col s12 m6">
+            <div class="img1"> 
+            <a class="responsive-img3">
+              <img src="/img/air-max-98-se-shoe-display.png" width="80%"; margin-top="40px";></a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!--FOOTER-->          
+<footer class="page-footer transparent">
+    <nav class="footer-copyright">
+      <div class="container">
+        <div class="nav-footer">
+          <ul id="nav-mobile2" class="left-on-med-and-down">   
+              <li><a href="https://www.facebook.com/marichelle.martinez/"><i class="material-icons black-text">facebook</i></a></li>
+              <li><a href="#!"><i class="fab fa-instagram black-text"></i></a></li>
+              <li><a href="#!"><i class="fab fa-twitter black-text"></i></a></li>
+          </ul>
+        </div>
+      <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+      </div>
+    </nav>
+  </footer>  
+    </section>
+
+    <!-- Cart Modal -->
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <section class="section section-purchase">
+          <div class="row">
+            <h3 class="h3"><i class="fas fa-check-circle green-text"></i>  Added to Bag</h3>            
+            <div class="col s12 m6">
+              <img src="/img/air-max-98-se-shoe-ADD.jpg" alt="" class="box responsive-img">
+            </div>
+
+            <div class="col s12 m6">
+                <h2 class="h2">
+                  Nike Air Max 98 SE <br>
+                  Men's Shoe
+                </h2>
+                <div class="flow-text">
+                  <h4 class="h4">     
+                    Size US 8
+                    <br>
+                    <br>
+                    <br>
+                    <strike>$8,995.00</strike>
+                    <br>
+                    <br>
+                    <br>
+                    NOW $7,199.00                 
+                  </h4>
+                  <br>
+                  <a class="btn-floating btn-large waves-effect waves-light black center"><i class="material-icons">add</i></a>
+                </div>
+            </div>
+            <div class="col s12">
+              <div class="center" id="outline2">
+              <a href="#!" class="btn-large white-text red darken-2">View Bag</a>
+                <a href="#!" class="btn-large black-text brown lighten-5">Checkout</a>
+                </div>
+              </div>  
+          </div>
+      
+      </section>
+      
+
+    <!-- Login Modal -->
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+     <a href="#" class="brand-logo" center>
+            <img src="icons/Logo/Kikz Logo_Horizontal-black1.svg">
+          </a>
+      <h3 class="h3">Account Login</h3>
+      <h4 class="h4">Login to access your account</h4>
+      <form>
+        <div class="input-field">
+          <input type="email" id="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password">
+          <label for="password">Password</label>
+        </div>
+      </form>
+    </div>
+    <div class="col s12">
+      <div class="center" id="outline2">
+      <a href="#!" class="btn-large white-text red darken-2">Sign Up</a>
+        <a href="#!" class="btn-large black-text brown lighten-5">Log In</a>
+        </div>
+      </div>  
+
+  </div>
+  </div>
+  <!--End of Main Layout-->  
+  </header>
+  <!-- End of Header -->
+
+
+
+
+
+  
+   <!-- Import Jquery CDN before materialize cdn-->
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+<!-- fullpage.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js" integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw==" crossorigin="anonymous"></script>
+        
+   <!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+<script>
+ $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.modal').modal();
+    $('.carousel').carousel();
+    $('.dropdown-trigger').dropdown();
+    $('#fullpage').fullpage({
+		//options here
+		autoScrolling: true,
+		navigation: true
+  });
+});
+</script>
+</body>
+</html>
